@@ -1,0 +1,926 @@
+<resources>
+    <string name="app_name">زواج </string>
+    <string name="app_version">4.6</string>
+    <string name="app_year">2019</string>
+    <string name="app_copyright">Zawag.site</string>
+    <string name="app_email">support@zawag.site</string>
+    <string name="app_site">https://dating.zawag.site</string>
+
+    <!-- Facebook App Id -->
+
+    <string name="facebook_app_id" translatable="false">720398011701730</string>
+
+    <!-- fb + Facebook App Id, example (you facebook app id: 123456): fb123456 -->
+
+    <string name="fb_login_protocol_scheme" translatable="false">fb34545456456456</string>
+
+    <!-- AdMob Banner Id -->
+
+    <!-- DEFAULT Ad UNIT ID: ca-app-pub-3940256099942544/6300978111 -->
+
+   <!-- <string name="banner_ad_unit_id" translatable="false">ca-app-pub-4880065470812462/3232710373</string>-->
+    <string name="banner_ad_unit_id" translatable="false"></string>
+
+    <!-- AdMob App Id -->
+
+    <!-- DEFAULT Admob APP ID: ca-app-pub-3940256099942544~3347511713 -->
+
+    <!--<string name="admob_app_id" translatable="false">ca-app-pub-4880065470812462~9526655987</string>-->
+    <string name="admob_app_id" translatable="false"></string>
+
+    <!-- DEFAULT Rewarded Ad ID: ca-app-pub-3940256099942544/5224354917 -->
+
+    <!--<string name="rewarded_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+    <string name="rewarded_ad_unit_id" translatable="false"></string>
+
+    <!--<string name="admob_interstial_ad_unit">ca-app-pub-4880065470812462/9682941729</string>-->
+    <string name="admob_interstial_ad_unit"></string>
+
+
+    <string name="action_login">دخول</string>
+    <string name="action_signup">تسجيل </string>
+    <string name="action_logout">خروج </string>
+    <string name="action_settings">اعدادات </string>
+    <string name="action_continue">استمرار</string>
+    <string name="action_unblock">إلغاء الحظر</string>
+    <string name="action_block">حظر</string>
+    <string name="action_about">عن</string>
+    <string name="action_ok">حسنا</string>
+    <string name="action_yes">نعم</string>
+    <string name="action_no">لا</string>
+    <string name="action_copy">نسخ</string>
+    <string name="action_save">حفظ </string>
+    <string name="action_send">ارسال</string>
+    <string name="action_open">فتح </string>
+    <string name="action_edit">تعديل </string>
+    <string name="action_reply" >رد</string>
+    <string name="action_refresh">تحديث </string>
+    <string name="action_report">تقرير </string>
+    <string name="action_remove">حذف</string>
+    <string name="action_remove_chat">حذف المحادثه </string>
+    <string name="action_deactivate">تعطيل</string>
+    <string name="action_create">انشاء </string>
+    <string name="action_cancel">الغاء</string>
+    <string name="action_close">غلق </string>
+    <string name="action_more">عرض المزيد </string>
+    <string name="action_search">بحث</string>
+    <string name="action_retry">المحاوله مرة أخرى </string>
+    <string name="action_turn_on">تفعيل </string>
+    <string name="action_turn_off">تعطيل</string>
+    <string name="action_select_birth">تاريخ الميلاد </string>
+    <string name="action_camera">كاميرا</string>
+    <string name="action_gallery">اختار من المعرض</string>
+    <string name="action_copy_url">نسخ الرابط </string>
+    <string name="action_open_url">فتح فى المتصفح </string>
+    <string name="settings_allow_messages">استلام رسائل من اى شخص </string>
+    <string name="settings_allow_messages_summary">سوف تكون قادر على استلام رسائل من الأعضاء حتى لم تكن متابع لهم </string>
+    <string name="action_enable">تفعيل</string>
+    <string name="action_accept">قبول</string>
+    <string name="action_reject">رفض</string>
+    <string name="action_pending">قيد الانتظار&#8230;</string>
+    <string name="action_add_to_friends">أضف إلى الأصدقاء </string>
+    <string name="action_remove_from_friends">حذف من قائمة الأصدقاء </string>
+
+    <string name="action_buy_credits">احصل على المزيد من الرصيد </string>
+
+    <string name="action_follow">متابعة</string>
+    <string name="action_unfollow">إلغاء المتابعة</string>
+    <string name="action_new">جديد </string>
+    <string name="action_profile_edit_photo">تحرير الصوره </string>
+    <string name="action_profile_edit_cover">تعديل الغلاف </string>
+    <string name="action_profile_edit">تحرير </string>
+
+    <string name="action_login_with_facebook">دخول بحساب الفيسبوك </string>
+    <string name="action_signup_with_facebook">تسجيل بحساب الفيسبوك </string>
+    <string name="action_connect_with_facebook">الاتصال بواسطة الفيسبوك </string>
+    <string name="action_remove_connection">إزالة الاتصال </string>
+    <string name="action_regular_signup">الرجوع لصفحة التسجيل العاديه </string>
+    <string name="action_forgot_password">نسيت كلمة السر </string>
+
+    <string name="label_profile_report_0">مزعج </string>
+    <string name="label_profile_report_1">خطاب كراهية او عنف</string>
+    <string name="label_profile_report_2">الخلاعة او العرى</string>
+    <string name="label_profile_report_3">ملف شخصى مزور </string>
+    <string name="label_profile_report_4">الخصوصية </string>
+
+    <string name="label_gender_select_title">اختيار الجنس </string>
+    <string name="label_age">العمر</string>
+    <string name="label_sex">الجنس</string>
+    <string name="label_male">ذكر</string>
+    <string name="label_female">أنثى </string>
+    <string name="label_sex_undefined">لم يتم تحديد الجنس </string>
+    <string name="label_sex_male">الجنس ذكر</string>
+    <string name="label_sex_female">الجنس أنثى </string>
+
+    <string name="label_profile_information">بيانات الملف الشخصي </string>
+    <string name="label_profile_activity">انشطة الملف الشخصي </string>
+    <string name="label_profile_join">تاريخ الانضمام </string>
+
+    <string name="placeholder_password">كلمة السر </string>
+    <string name="placeholder_login">اسم المستخدم </string>
+    <string name="placeholder_fullname">الاسم بالكامل </string>
+    <string name="placeholder_location">المكان </string>
+    <string name="placeholder_facebook_page">صفحة الفيسبوك </string>
+    <string name="placeholder_instagram_page">صفحة انستجرام</string>
+    <string name="placeholder_bio">نبذة</string>
+    <string name="placeholder_email">الايميل </string>
+    <string name="placeholder_subject">الموضوع </string>
+    <string name="placeholder_support_detail">ما الذي تتصل بنا بخصوصه</string>
+    <string name="placeholder_current_password">كلمة السر الحالية </string>
+    <string name="placeholder_new_password">كلمة سر جديده </string>
+    <string name="placeholder_item_category">الفئة </string>
+    <string name="placeholder_item_title">العنوان </string>
+    <string name="placeholder_item_login">اسم المستخدم، الايميل او رقم الهاتف </string>
+    <string name="placeholder_item_passw">كلمة السر </string>
+    <string name="placeholder_item_url">الموقع الإلكتروني </string>
+    <string name="placeholder_item_description">الوصف </string>
+    <string name="placeholder_photo"> أضف تعليق للمنشور &#8230;</string>
+    <string name="placeholder_gift"> أضف تعليق للهديه&#8230;</string>
+    <string name="placeholder_search">بحث</string>
+    <string name="placeholder_comment">كتابه تعلبق&#8230;</string>
+    <string name="placeholder_message">كتابه رساله &#8230;</string>
+
+    <string name="msg_loading">يرجى الانتظار &#8230;</string>
+    <string name="msg_loading_2">جارى التحميل يرجى الانتظار &#8230;</string>
+    <string name="msg_network_error">يرجى التحقق من اتصالك بالإنترنت </string>
+    <string name="msg_account_blocked">هذا الحساب تم حظره من قبل الإدارة </string>
+    <string name="msg_copied_to_clipboard">نسخ إلى الخلفيه </string>
+    <string name="msg_enter_item">يرجى كتابه اى نص او إرفاق صوره </string>
+    <string name="msg_enter_msg">يرجى كتابه نص او إرفاق صوره .</string>
+    <string name="msg_send_msg_error">لا يمكنك إرسال رسالة إلى المستخدم.</string>
+    <string name="msg_gift_sent">تم إرسال الهدية بنجاح.</string>
+    <string name="msg_item_saved">تم حفظ العنصر بنجاح.</string>
+    <string name="msg_item_added">تمت إضافة العنصر بنجاح.</string>
+    <string name="msg_password_changed">الرقم السري تغير بنجاح</string>
+    <string name="msg_settings_saved">تم حفظ الإعدادات بنجاح.</string>
+    <string name="msg_ticket_send_success">تم قبول طلبك! سوف تتلقى ردا على البريد الإلكتروني ، المشار إليه في الطلب.</string>
+    <string name="msg_password_reset_link_sent">تم إرسال رسالة تحتوي على رابط لإعادة تعيين كلمة مرورك إلى بريدك الإلكتروني.</string>
+    <string name="msg_no_such_user_in_bd">هذا المستخدم غير موجود في قاعدة البيانات</string>
+    <string name="msg_connect_to_facebook_success">لقد ربطت التطبيق بنجاح بحسابك على الفيسبوك!</string>
+    <string name="msg_connect_to_facebook_error">حسابك على الفيسبوك مرتبط بالفعل بحساب آخر.</string>
+    <string name="msg_connect_to_facebook_removed">تم ازالة ارتباط حسابك مع الفيسبوك .</string>
+    <string name="msg_comment_has_been_added">تمت إضافة التعليق.</string>
+    <string name="msg_chat_has_been_removed">تمت إزالة الدردشة.</string>
+    <string name="msg_profile_removed_from_blacklist">تم إزالة المستخدم من القائمة المحظورة.</string>
+    <string name="msg_profile_link_copied">تم نسخ رابط الملف الشخصي إلى الحافظة.</string>
+    <string name="msg_item_link_copied">تم نسخ رابط العنصر إلى الحافظة.</string>
+    <string name="msg_profile_added_to_blacklist">تم إضافة المستخدم إلى القائمة المحظورة.</string>
+    <string name="msg_success_purchase">تم الشراء! تهانينا!</string>
+    <string name="msg_success_ghost_mode">"Ghost Mode" تم تفعيله بنجاح!</string>
+    <string name="msg_success_verified_badge">"شارة التحقق" تم تفعيلها بنجاح!</string>
+    <string name="msg_success_disable_ads">تم إيقاف الإعلانات!</string>
+
+    <string name="label_ghost_mode_enabled">تم تمكين وضع الشبح!</string>
+    <string name="label_verified_badge_enabled">تم تمكين شارة التحقق!</string>
+    <string name="label_disable_ads_enabled">تم إيقاف الإعلانات!</string>
+
+    <string name="error_signin">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="error_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_data_loading">حدث خطأ في تحميل البيانات. تحقق من اتصال الشبكة الخاص بك.</string>
+    <string name="error_field_empty">الحقول المطلوبة فارغة</string>
+    <string name="error_wrong_format">صيغة خاطئة</string>
+    <string name="error_small_password">الحد الأدنى 6 أحرف</string>
+    <string name="error_small_username">الحد الأدنى 5 أحرف</string>
+    <string name="error_small_fullname">الحد الأدنى 2 حرفا</string>
+    <string name="error_login_taken">اسم المستخدم مسجل بالفعل</string>
+    <string name="error_email_taken">المستخدم مع هذا البريد الإلكتروني مسجل بالفعل</string>
+    <string name="error_password">كلمة مرور خاطئه.</string>
+    <string name="error_email">البريد الإلكتروني غير صالح.</string>
+    <string name="error_credits">لا يوجد رصيد كافى!</string>
+    <string name="error_action">لقد حرمك هذا المستخدم من القيام بذلك!</string>
+    <string name="error_no_friend">يتلقى هذا المستخدم رسائل فقط من أصدقائه!</string>
+
+    <string name="label_gcm_like">لديك إعجاب جديد.</string>
+    <string name="label_gcm_profile_like">لديك إعجاب جديد لملف الشخصى.</string>
+    <string name="label_gcm_comment">لديك تعليق جديد.</string>
+    <string name="label_gcm_follower">لديك متابع جديد.</string>
+    <string name="label_gcm_friend_request">لديك طلب صداقة جديد.</string>
+    <string name="label_gcm_friend_request_accepted">تم قبول طلب الصداقة.</string>
+    <string name="label_gcm_friend">لديك صديق جديد</string>
+    <string name="label_gcm_message">لديك رسالة جديدة.</string>
+    <string name="label_gcm_gift">لديك هدية جديدة.</string>
+    <string name="label_gcm_comment_reply">لديك رد جديد على التعليق.</string>
+
+    <string name="label_authorization_via_facebook">التوثيق من خلال الفيسبوك.</string>
+    <string name="label_account_connected_to_facebook">متصل مع الفيسبوك</string>
+    <string name="label_account_connect_to_facebook">ربط هذا الحساب بحسابات الشبكة الاجتماعية الخاصة بك</string>
+    <string name="label_empty_list">القائمة فارغة.</string>
+    <string name="label_nearby">بالقرب منك</string>
+
+    <string name="age_item_from_1">١٣</string>
+    <string name="age_item_from_2">١٨</string>
+    <string name="age_item_from_3">٢٥</string>
+    <string name="age_item_from_4">٣٠</string>
+    <string name="age_item_from_5">٣٥</string>
+    <string name="age_item_from_6">٤٠</string>
+    <string name="age_item_from_7">٤٥</string>
+
+    <string name="age_item_to_1">٢٠</string>
+    <string name="age_item_to_2">٢٧</string>
+    <string name="age_item_to_3">٣٨</string>
+    <string name="age_item_to_4">٤٣</string>
+    <string name="age_item_to_5">٥٠</string>
+    <string name="age_item_to_6">٧٠</string>
+    <string name="age_item_to_7">لا يهم</string>
+
+    <string name="label_location">موقعك</string>
+    <string name="label_block">منع</string>
+    <string name="label_block_msg">لن تكون قادرًا على إرسال هدايا لك وإرسال رسائلك ، ولن ترى إعلامات من</string>
+    <string name="label_delete">حذف</string>
+    <string name="label_delete_msg">هل تريد حذف هذا البند؟</string>
+    <string name="label_delete_photo_msg">هل تريد حذف هذه الصورة؟</string>
+    <string name="label_delete_comment">هل أنت متأكد أنك تريد حذف هذا التعليق؟</string>
+    <string name="label_report_dialog_title">التبليغ عن إساءة</string>
+    <string name="label_last_message_image">صورة</string>
+    <string name="label_profile_reported">تم الإبلاغ عن الملف الشخصي.</string>
+    <string name="label_item_reported">البند المبلغ عنه.</string>
+    <string name="label_photo_reported">تم الابلاغ عن الصورة.</string>
+    <string name="label_select_img">اختيار صورة</string>
+    <string name="label_delete_img">حذف الصورة</string>
+    <string name="label_account_disabled">الحساب محظور </string>
+    <string name="label_search_start_screen_msg">اعثرعلى الأشخاص ب الإيميل، اسم المستخدم، الاسم، الموقع </string>
+    <string name="label_search_results">اعثر على الأشخاص </string>
+    <string name="label_search_results_error">لا توجد نتائج </string>
+    <string name="label_likes_item">اعجابات لبندك. </string>
+    <string name="label_likes_profile">معجبين بملفك الشخصى</string>
+    <string name="label_comment_added">اضاف تعليق جديد </string>
+    <string name="label_comment_reply_added">رد على تعليقك </string>
+    <string name="label_follow_you"> تابعك</string>
+    <string name="label_friend_request_added">ارسل لك طلب صداقة </string>
+    <string name="label_gift_added">ارسل هديه </string>
+    <string name="label_share_dialog_title">مشاركة مع</string>
+    <string name="label_public">عام</string>
+    <string name="label_friend_request_dialog_title">طلب صداقة </string>
+    <string name="label_search_settings_dialog_title">اعدادات البحث</string>
+    <string name="label_activity">اخر نشاط</string>
+
+    <string name="label_photos">الصور</string>
+    <string name="label_gifts">الهدايا </string>
+    <string name="label_followers">المتابعين </string>
+    <string name="label_followings">متابعه </string>
+    <string name="label_friends">الأصدقاء </string>
+    <string name="label_likes">الاعجابات </string>
+    <string name="label_online">متصل</string>
+    <string name="label_offline">غير متصل</string>
+
+    <string name="label_to">الى</string>
+    <string name="label_from">من</string>
+    <string name="label_between">بين</string>
+
+    <string name="signup_label_1">بالمقر على زر التسجيل، أنت توافق على </string>
+    <string name="signup_label_terms_and_policies">شروط الإستخدام والسياسات</string>
+
+    <string name="label_credits">الرصيد </string>
+    <string name="label_credits_desc">الرصيد هو عملة افتراضية يمكنك استخدامها لتمكين الترقيات والوظائف الأخرى.</string>
+
+    <string name="label_upgrades_ghost_mode">وضع الشبح</string>
+    <string name="label_upgrades_ghost_mode_desc">تصفح ملفات تعريف المستخدمين بشكل مجهول ، لن يحصل المستخدمون على أي إشعارات في كل مرة تقوم فيها بزيارة ملفهم الشخصي</string>
+
+    <string name="label_upgrades_verified_badge">شارة التعريف</string>
+    <string name="label_upgrades_verified_badge_desc">أظهر للآخرين أنك مستخدم شرعي بهذه الشارة الرائعة</string>
+
+    <string name="label_upgrades_disable_ads">عطل الاعلانات</string>
+    <string name="label_upgrades_disable_ads_desc">تعبت من رؤية الإعلانات؟ تعطيلهم من العرض!</string>
+
+    <string name="settings_header_general">عام</string>
+    <string name="settings_header_others">الآخرين</string>
+    <string name="settings_header_about">عن</string>
+    <string name="settings_header_notifications">إشعار</string>
+
+    <string name="settings_notifications_likes">الإعجابات</string>
+    <string name="settings_notifications_comments">تعليقات</string>
+    <string name="settings_notifications_followers">متابعون</string>
+    <string name="settings_notifications_friends">طلبات صداقة</string>
+    <string name="settings_notifications_messages">رسائل خاصة</string>
+    <string name="settings_notifications_gifts">الهدايا</string>
+    <string name="settings_notifications_comment_reply">الرد على التعليق</string>
+
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_logout">تسجيل خروج</string>
+    <string name="settings_balance">رصيد حساب</string>
+    <string name="settings_balance_summary">شراء إئتمانات</string>
+    <string name="settings_copyright_info">حقوق الطبع والنشر</string>
+    <string name="settings_contact_us">اتصل بنا</string>
+    <string name="settings_contact_us_summary">الإبلاغ عن مشكلة</string>
+    <string name="settings_web_site">موقعنا</string>
+    <string name="settings_view_blocked_list">عرض القائمة المحظورة</string>
+    <string name="settings_deactivate_account">تعطيل الحساب</string>
+    <string name="settings_thanks">إعتراف</string>
+    <string name="settings_terms">تعليمات الاستخدام</string>
+    <string name="settings_change_password">تغيير كلمة السر</string>
+    <string name="settings_services">خدمات</string>
+    <string name="settings_notifications">دفع الإخطارات</string>
+    <string name="settings_services_summary">تواصل مع حسابات الشبكة الاجتماعية</string>
+    <string name="settings_account_deactivation">إذا تابعت إلغاء تنشيط حسابك ، فلن تتمكن أبدًا من العودة. إذا كنت تريد العودة - فسيتعين عليك إنشاء حساب جديد.</string>
+
+    <string name="settings_file" translatable="false">account</string>
+    <string name="settings_account_id" translatable="false">account_id</string>
+    <string name="settings_account_username" translatable="false">account_username</string>
+    <string name="settings_account_access_token" translatable="false">access_token</string>
+
+    <string name="page_1">الملف الشخصي</string>
+    <string name="page_3">أصدقاء</string>
+    <string name="page_4">رسائل</string>
+    <string name="page_5">إشعارات</string>
+    <string name="page_6">زوار الملف الشخصي </string>
+    <string name="page_7">إعجابات الملف الشخصي </string>
+    <string name="page_8">اعجبني</string>
+    <string name="page_9">ترقيات</string>
+    <string name="page_10">الناس بالقرب منك</string>
+    <string name="page_11">بحث</string>
+    <string name="page_12">الإعدادات</string>
+
+    <string name="account_relationship_status">الحالة الاجتماعية</string>
+    <string name="account_political_views">وجهات نظر سياسية</string>
+    <string name="account_world_view">الرؤية الكونية</string>
+    <string name="account_personal_priority">أولوية شخصية</string>
+    <string name="account_important_in_others">مهم في الآخرين</string>
+    <string name="account_smoking_views">وجهات النظر حول التدخين</string>
+    <string name="account_alcohol_views">وجهات النظر حول الكحول</string>
+    <string name="account_you_looking">عن ماذا تبحث؟</string>
+    <string name="account_you_like">أي نوع من الجنس تحب؟</string>
+
+    <string name="account_profile_looking">البحث عن</string>
+    <string name="account_profile_like">الجنس مثل</string>
+
+    <string name="account_you_looking_dialog">هل تبحث عن</string>
+    <string name="account_you_like_dialog">الجنس الذى تحب</string>
+
+    <string name="relationship_status_0">غير محدد</string>
+    <string name="relationship_status_1">أعزب</string>
+    <string name="relationship_status_2">في علاقة</string>
+    <string name="relationship_status_3">مخطوب</string>
+    <string name="relationship_status_4">متزوج</string>
+    <string name="relationship_status_5">يعشق</string>
+    <string name="relationship_status_6">انه لامر معقد</string>
+    <string name="relationship_status_7">البحث بنشاط</string>
+
+    <string name="political_views_0">لا شيء محدد</string>
+    <string name="political_views_1">لا مبالي</string>
+    <string name="political_views_2">شيوعي</string>
+    <string name="political_views_3">اشتراكي</string>
+    <string name="political_views_4">معتدل</string>
+    <string name="political_views_5">ليبرالية</string>
+    <string name="political_views_6">محافظ</string>
+    <string name="political_views_7">ملكي</string>
+    <string name="political_views_8">محافظ جدا</string>
+    <string name="political_views_9">التحررية</string>
+
+    <string name="world_view_0">لا شيء محدد</string>
+    <string name="world_view_1">يهودية</string>
+    <string name="world_view_2">الأرثوذكسية</string>
+    <string name="world_view_3">كاثوليكي</string>
+    <string name="world_view_4">البروتستانتية</string>
+    <string name="world_view_5">الإسلام</string>
+    <string name="world_view_6">البوذية</string>
+    <string name="world_view_7">الكونفوشيوسية</string>
+    <string name="world_view_8">الإنسانية العلمانية</string>
+    <string name="world_view_9">Pastafarianism</string>
+
+    <string name="personal_priority_0">غير محدد</string>
+    <string name="personal_priority_1">الأسرة والأطفال</string>
+    <string name="personal_priority_2">الوظيفي والمال</string>
+    <string name="personal_priority_3">الترفيه والتسلية</string>
+    <string name="personal_priority_4">العلم والبحث</string>
+    <string name="personal_priority_5">تحسين العالم</string>
+    <string name="personal_priority_6">تطوير الذات</string>
+    <string name="personal_priority_7">الجمال والفن</string>
+    <string name="personal_priority_8">الشهرة والتأثير</string>
+
+    <string name="important_in_others_0">غير محدد</string>
+    <string name="important_in_others_1">العقل والإبداع</string>
+    <string name="important_in_others_2">اللطف والامانة</string>
+    <string name="important_in_others_3">الصحة والجمال</string>
+    <string name="important_in_others_4">الثروة والقوة</string>
+    <string name="important_in_others_5">الشجاعة والمثابرة</string>
+    <string name="important_in_others_6">الشجاعة والمثابرة...</string>
+
+    <string name="smoking_views_0">غير محدد</string>
+    <string name="smoking_views_1">سلبي جدا</string>
+    <string name="smoking_views_2">سلبي</string>
+    <string name="smoking_views_3">نسبي</string>
+    <string name="smoking_views_4">محايد</string>
+    <string name="smoking_views_5">إيجابي</string>
+
+    <string name="alcohol_views_0">غير محدد</string>
+    <string name="alcohol_views_1">سلبي جدا</string>
+    <string name="alcohol_views_2">سلبي</string>
+    <string name="alcohol_views_3">نسبي</string>
+    <string name="alcohol_views_4">محايد</string>
+    <string name="alcohol_views_5">إيجابي</string>
+
+    <string name="you_looking_0">غير محدد</string>
+    <string name="you_looking_1">صداقة</string>
+    <string name="you_looking_2">علاقة</string>
+    <string name="you_looking_3">يمزح</string>
+
+    <string name="you_like_0">غير محدد</string>
+    <string name="you_like_1">أنا مهتم بالمرأة</string>
+    <string name="you_like_2">أنا مهتم بالرجال</string>
+
+    <string name="profile_like_1">مهتم بالنساء</string>
+    <string name="profile_like_2">مهتمة بالرجال</string>
+
+
+    <string name="drawer_open">افتح</string>
+    <string name="drawer_close">أغلق</string>
+
+    <string name="title_activity_login">الدخول</string>
+    <string name="title_activity_signup">تسجيل</string>
+    <string name="title_activity_main">تدفق</string>
+    <string name="title_activity_recovery">استعادة كلمة السر</string>
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="title_activity_web_view">عرض الويب</string>
+    <string name="title_activity_change_password">تغيير كلمة السر</string>
+    <string name="title_activity_services">خدمات</string>
+    <string name="title_activity_new_item">عنصر جديد</string>
+    <string name="title_activity_new_photo">صوره جديده</string>
+    <string name="title_activity_galery">الصور الشخصية</string>
+    <string name="title_activity_view_item">بند</string>
+    <string name="title_activity_profile">الملف الشخصي</string>
+
+    <string name="hello_world">مرحبا بالعالم!</string>
+    <string name="title_activity_search">بحث</string>
+    <string name="title_activity_notifications">إشعارات</string>
+    <string name="title_activity_photo_view">صورة فوتوغرافية</string>
+    <string name="title_activity_hashtags">علامات التصنيف</string>
+    <string name="title_activity_followings">متابعة</string>
+    <string name="title_activity_followers">متابعون</string>
+    <string name="title_activity_feeds">تغذية</string>
+    <string name="title_activity_likes">إعجابات الملف الشخصي</string>
+    <string name="title_activity_account_settings">الإعدادات</string>
+    <string name="title_activity_report">أبلغ</string>
+    <string name="title_activity_pro">روح المبادرة</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا شظية فارغة</string>
+    <string name="title_activity_black_list">القائمة المحظورة</string>
+    <string name="title_activity_dialogs">رسائل</string>
+    <string name="title_activity_chat">دردشة</string>
+    <string name="title_activity_notifications_settings">دفع الإخطارات</string>
+    <string name="title_activity_favorites">المفضلة</string>
+    <string name="title_activity_support">اتصل بنا</string>
+    <string name="title_activity_location">موقعك</string>
+    <string name="title_activity_edit_item">تعديل</string>
+    <string name="title_activity_deactivate">تعطيل الحساب</string>
+    <string name="title_activity_select_gift">اختيار هدية</string>
+    <string name="title_activity_send_gift">أرسل هدية</string>
+    <string name="title_activity_gifts">هدايا الملف الشخصى</string>
+    <string name="title_activity_friends">أصدقاء الملف الشخصي</string>
+    <string name="title_activity_balance">شراء إئتمانات</string>
+    <string name="title_activity_nearby">أشخاص بالقرب منك</string>
+
+    <!-- for version 1.1 -->
+
+    <string name="title_dialog_nearby">Select a Distance</string>
+
+    <string name="dialog_nearby_0">80 كم</string>
+    <string name="dialog_nearby_1">160 كم</string>
+    <string name="dialog_nearby_2">400 كيلومتر</string>
+    <string name="dialog_nearby_3">800 كيلومتر</string>
+    <string name="dialog_nearby_4">1600 كيلومتر</string>
+
+
+    <!-- for version 1.2 -->
+
+    <string name="label_profile_birth">تاريخ الميلاد</string>
+    <string name="label_profile_allow_show_birth">عرض تاريخ الميلاد في الملف الشخصي</string>
+    <string name="action_open_settings"><u>افتح إعدادات الموقع</u></string>
+    <string name="action_set_location">نعم ، هذا هو موقعي</string>
+    <string name="action_detail">المزيد من التفاصيل</string>
+    <string name="msg_location_error">لم نتمكن من الحصول على موقعك.</string>
+
+    <string name="label_location_prompt">السماح بالوصول إلى موقعك لتمكين ميزات أخرى باستخدام الموقع.</string>
+
+    <!-- for version 1.3 -->
+
+    <string name="settings_account_lat">lat</string>
+    <string name="settings_account_lng">lng</string>
+
+    <!-- for version 1.4 -->
+
+    <string name="action_buy">شراء إئتمانات</string>
+    <string name="action_credits_name">ائتمانات</string>
+    <string name="action_add_photo">يمكنك إضافة صورة الآن!</string>
+
+    <!-- added for version 1.5 -->
+
+    <string name="action_buy_sms">شراء الاعتمادات مع الرسائل القصيرة</string>
+    <string name="action_buy_iap1_google_pay">شراء 30 ساعة معتمدة (1 دولار) باستخدام جوجل</string>
+    <string name="action_buy_iap2_google_pay">شراء 70 ائتمانات (2 دولار) باستخدام جوجل </string>
+    <string name="action_buy_iap3_google_pay">شراء 120 ساعة معتمدة (3 دولارات) باستخدام جوجل</string>
+
+    <string name="settings_account_allow_messages_gcm" translatable="false">allow_messages_gcm</string>
+
+    <!-- added for version 1.9 -->
+
+    <string name="title_activity_view_image">صورة</string>
+    <string name="label_image_for_public">عام</string>
+    <string name="label_image_for_friends">أصدقاء</string>
+    <string name="title_activity_scrolling">أنشطة التمرير</string>
+
+    <!-- added for version 2.0 -->
+
+    <string name="title_activity_likers">أشخاص معجبين بهذا</string>
+    <string name="label_likes_image">معجب بصورتك.</string>
+    <string name="msg_comment_has_been_removed">تمت إزالة التعليق.</string>
+
+    <!-- added for version 2.2 -->
+
+    <string-array name="navDrawerIcons">
+        <item>@drawable/ic_action_profile</item>
+        <item>@drawable/ic_action_gallery</item>
+        <item>@drawable/ic_action_friends</item>
+        <item>@drawable/ic_action_messages</item>
+        <item>@drawable/ic_action_notifications</item>
+        <item>@drawable/ic_action_guests</item>
+        <item>@drawable/ic_action_favorites</item>
+        <item>@drawable/ic_action_liked</item>
+        <item>@drawable/ic_action_upgrade</item>
+        <item>@drawable/ic_action_nearby</item>
+        <item>@drawable/ic_action_stream</item>
+        <item>@drawable/ic_action_feed</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_settings</item>
+    </string-array>
+
+    <!-- added for version 2.3 -->
+
+    <string name="page_15">تغذية الفيديوهات</string>
+
+    <string-array name="navDrawerItems">
+        <item>الملف الشخصي</item>
+        <item>معرض الصور</item>
+        <item>أصدقاء</item>
+        <item>رسائل</item>
+        <item>إشعارات</item>
+        <item>زوار الملف الشخصي </item>
+        <item>إعجابات الملف الشخصي </item>
+        <item>اعجبني</item>
+        <item>ترقيات</item>
+        <item>الناس في مكان قريب</item>
+        <item>دفق الوسائط</item>
+        <item>التغذية الإعلامية</item>
+        <item>بحث</item>
+        <item>الإعدادات</item>
+    </string-array>
+
+    <string name="page_2">معرضي</string>
+
+    <string name="action_video_gallery">فيديو من المعرض</string>
+    <string name="label_select_video">اختر الفيديو</string>
+    <string name="msg_video_too_large">الملف كبير جدًا..</string>
+    <string name="label_delete_item">حذف البند؟</string>
+    <string name="title_activity_view_gallery_item">معرض البند</string>
+    <string name="title_activity_video_view">فيديو</string>
+
+    <string name="title_activity_stream">تيار الوسائط</string>
+    <string name="page_14">دفق الوسائط</string>
+
+    <string name="label_gallery">المعرض</string>
+
+    <string name="title_activity_gallery">معرض الصور</string>
+
+    <string name="settings_allow_comments_to_photos">السماح بالتعليقات على عناصر المعرض الخاصة بي</string>
+    <string name="msg_comments_disabled">لا يريد المستخدم التعليق على عناصر معرضه.</string>
+
+    <string name="msg_enter_photo">يرجى اختيار صورة أو فيديو للنشر.</string>
+
+    <!-- added for version 2.5 -->
+
+    <string name="action_grant">منحة</string>
+    <string name="msg_location_permission_request">يرجى منح أذونات لاستخدام موقعك.</string>
+    <string name="label_no_storage_permission">لم يتم منح إذن التخزين</string>
+    <string name="label_no_location_permission">لم يتم منح إذن الموقع</string>
+    <string name="label_grant_storage_permission">افتح الأذونات ومنح إذن التخزين</string>
+    <string name="label_grant_location_permission">افتح الأذونات ومنح إذن الموقع</string>
+
+    <!-- added for version 2.6 -->
+
+    <string name="action_message">رسالة</string>
+    <string name="action_gift">هدية</string>
+
+    <!-- added for version 2.8 -->
+
+    <string name="title_activity_privacy_settings">الخصوصية</string>
+    <string name="settings_privacy">الخصوصية</string>
+
+    <string name="settings_privacy_info">إظهار معلومات الملف الشخصي للأصدقاء فقط</string>
+    <string name="settings_privacy_galley">عرض معرض الصور الخاص بي فقط للأصدقاء</string>
+    <string name="settings_privacy_friends">أظهر أصدقائي فقط للأصدقاء</string>
+    <string name="settings_privacy_likes">إظهار إعجابات الملف الشخصي فقط للأصدقاء</string>
+    <string name="settings_privacy_gifts">عرض الهدايا فقط للأصدقاء</string>
+
+    <!-- added for version 2.9 -->
+
+    <string name="action_remove_all">حذف الكل</string>
+    <string name="title_dialog_nearby_sex">اختر الجنس</string>
+    <string name="label_gender_any">الكل</string>
+    <string name="action_nearby_sex_settings">اختيار الجنس</string>
+
+    <!-- added for version 3.0 -->
+
+    <string name="title_activity_welcome">أهلا بك</string>
+    <string name="title_activity_referrals">الدعوات</string>
+    <string name="title_activity_refill">تاريخ الملء</string>
+
+    <string name="welcome_screen_1_title">أهلا بك!</string>
+    <string name="welcome_screen_2_title">الصور والفيديو</string>
+    <string name="welcome_screen_3_title">المتواجدون قريب</string>
+    <string name="welcome_screen_4_title">شكرا لكم!</string>
+
+    <string name="welcome_screen_1_desc">اكتمل التسجيل بنجاح!</string>
+    <string name="welcome_screen_2_desc">مشاركة الصور ومقاطع الفيديو!</string>
+    <string name="welcome_screen_3_desc">العثور على أشخاص في مكان قريب</string>
+    <string name="welcome_screen_4_desc">شكرا لك لاختيارنا!</string>
+
+    <string name="action_next">التالى</string>
+    <string name="action_finish">إنهاء</string>
+    <string name="action_skip">تخطى</string>
+
+    <string name="label_signup_invite">معرف المستخدم الذي دعاك (اختياري)</string>
+    <string name="label_user_id">رقم المستخدم</string>
+
+    <string name="settings_view_referrals_list">الإحالات</string>
+    <string name="settings_view_refill_list">تاريخ الملء</string>
+
+    <string name="label_referrals_id">معرف المستخدم الخاص بك:</string>
+    <string name="label_referrals_hint">ادع أصدقائك واحصل على ائتمانات!</string>
+    <string name="label_referrals_hint2">الإحالات هي الأشخاص الذين سجلوا بناءً على دعوتك.</string>
+
+    <string name="label_refill_type_google">شراء جوجل بلاى</string>
+    <string name="label_refill_amount">عدد الاعتمادات :</string>
+
+
+    <!-- added for version 3.1 -->
+
+    <string name="label_only_with_photo">فقط مع الصورة</string>
+    <string name="label_only_with_pro_mode">فقط مع الوضع برو</string>
+    <string name="label_additional">إضافي</string>
+
+    <string name="label_upgrades_pro_mode">وضع البرو</string>
+    <string name="label_pro_mode_enabled">تم تمكين وضع برو!</string>
+
+    <string name="msg_success_pro_mode">تم تنشيط "الوضع الاحترافي" بنجاح!</string>
+
+    <!-- added for version 3.2 -->
+
+    <string name="msg_pro_mode_alert">لإرسال رسائل غير محدودة ، تحتاج إلى تنشيط "Pro Mode" في قسم الترقيات!</string>
+    <string name="msg_account_deactivated">تم إلغاء تنشيط هذا الحساب من قبل المستخدم.</string>
+
+    <string name="label_upgrades_pro_mode_desc">يمكنك إرسال رسائل خاصة غير محدودة للمستخدمين الآخرين</string>
+
+    <string name="label_just_now">في هذة اللحظة</string>
+
+    <!-- added for version 3.3 -->
+
+    <string name="settings_account_free_messages_count">free_messages_count</string>
+    <string name="settings_account_pro_mode">pro_mode</string>
+    <string name="settings_account_verified">account_verified</string>
+    <string name="settings_account_photo_url">account_photo_url</string>
+    <string name="settings_account_cover_url">account_cover_url</string>
+    <string name="settings_account_fullname">account_fullname</string>
+
+    <!-- added for version 3.4 -->
+
+    <string name="label_typing">الكتابة...</string>
+    <string name="label_chat_media">ميديا</string>
+    <string name="label_chat_stickers">ملصقات</string>
+
+    <string name="label_multi_account_msg">لا يمكنك إنشاء حسابات متعددة!</string>
+
+    <string name="channel_name">التعارف</string>
+
+    <string name="label_free_messages_count">عدد الرسائل المجانية</string>
+
+    <!-- added for version 3.5 -->
+
+    <string name="label_sex_orientation">فترة الزواج المطلوبة</string>
+    <string name="label_height">الطول</string>
+    <string name="label_weight">الوزن</string>
+    <string name="label_cm">سم</string>
+    <string name="label_kg">كلغ</string>
+
+    <string name="label_select_gender">الجنس</string>
+    <string name="label_select_sex_orientation">فترة الزواج المطلوبة</string>
+    <string name="label_select_age">العمر</string>
+
+    <string name="msg_gender_incorrect">يرجى اختيار جنسك</string>
+    <string name="msg_sex_orientation_incorrect">يرجى اختيار فترة الزواج المطلوبة</string>
+    <string name="msg_age_incorrect">يرجى اختيار عمرك</string>
+    <string name="msg_age_incorrect_2">الرجاء إدخال عمرك (لا يقل عن 18 عامًا)</string>
+    <string name="msg_age_incorrect_3">يرجى إدخال عمرك (لا يزيد عن 110 سنوات)</string>
+
+    <string name="sex_orientation_1">في غضون 3 أشهر</string>
+    <string name="sex_orientation_2">في غضون 6 أشهر</string>
+    <string name="sex_orientation_3">خلال عام واحد</string>
+    <string name="sex_orientation_4">في غضون عامين</string>
+
+    <string name="account_settings_sex_orientation">فترة الزواج المطلوبة</string>
+
+    <string name="title_dialog_sex_orientation_select">فترة الزواج المطلوبة</string>
+    <string name="label_sex_orientation_any">في أقرب وقت ممكن</string>
+    <string name="action_nearby_sex_orientation_settings">الاختيار> فترة الزواج المطلوبة</string>
+    <string name="action_nearby_distance_settings">اختيار المسافة</string>
+
+    <string name="label_age_from_to">العمر (من ، إلى)</string>
+
+    <!-- added for version 3.6 -->
+
+    <string name="settings_notifications_matches">متطابق</string>
+
+    <string name="title_activity_matches">متطابق</string>
+    <string name="title_activity_hotgame">نعم ام لا</string>
+
+    <string name="label_gcm_new_match_found">تم العثور على تطابق جديد.</string>
+
+    <string name="nav_drawer_open">افتح</string>
+    <string name="nav_drawer_close">أغلق</string>
+
+    <string name="nav_hotgame">نعم ام لا</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    <string name="nav_gallery">معرضي</string>
+    <string name="nav_friends">أصدقاء</string>
+    <string name="nav_matches">متطابق</string>
+    <string name="nav_messages">رسائل</string>
+    <string name="nav_notifications">إشعارات</string>
+    <string name="nav_guests">زوار الملف الشخصي </string>
+    <string name="nav_likes">إعجابات الملف الشخصي</string>
+    <string name="nav_liked">اعجبني</string>
+    <string name="nav_upgrades">ترقيات</string>
+    <string name="nav_nearby">أشخاص في مكان قريب</string>
+    <string name="nav_stream">تدفق الميديا</string>
+    <string name="nav_feed">تغذية الميديا</string>
+    <string name="nav_search">بحث</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="label_hotgame_dialog_title">الإعدادات ل نعم أو لا </string>
+
+    <string name="label_hotgame_liked_checkbox">عرض الإعجابات</string>
+    <string name="label_hotgame_matches_checkbox">عرض المتطابقون</string>
+
+    <string name="settings_account_allow_matches_gcm">allow_matches_gcm</string>
+    <string name="settings_account_allow_likes_gcm">allow_likes_gcm</string>
+
+    <!-- added for version 3.7 -->
+
+    <string name="settings_account_admob">admob</string>
+    <string name="action_profile_edit_feeling">تعيين شعور</string>
+    <string name="title_activity_feelings">مشاعر</string>
+
+    <!-- added for version 3.8 -->
+
+    <string name="msg_success_rewarded">تهانينا! يتم إضافة مكافأة عرض الإعلانات إلى رصيدك!</string>
+
+    <string name="action_view_rewarded_video_ad">الحصول على مكافآت لعرض الإعلانات</string>
+
+    <!-- added for version 3.9 -->
+
+    <string name="settings_account_balance">account_balance</string>
+
+    <!-- added for version 4.0 -->
+
+    <string name="action_see_all">اظهار الكل</string>
+
+    <!-- DO NOT TRANSLATE START -->
+    <string name="default_notification_channel_id" translatable="false">my_channel_01</string>
+    <!-- DO NOT TRANSLATE END-->
+
+    <!-- added for version 4.1 -->
+
+    <string name="title_activity_upgrades">ترقيات</string>
+    <string name="title_activity_guests">ضيوف</string>
+    <string name="title_activity_media">ميديا</string>
+    <string name="title_activity_liked">اعجبني</string>
+
+    <string name="nav_people_nearby">بالقرب</string>
+    <string name="nav_media_stream">دفق</string>
+    <string name="nav_media_feed">تغذية</string>
+    <string name="nav_menu">الإعدادات</string>
+
+    <string name="label_photo_privacy">أظهر فى دفق الميديا </string>
+
+    <!-- added for version 4.2 -->
+
+    <string name="label_gcm_media_approve">تمت الموافقة على عنصر المعرض.</string>
+    <string name="label_gcm_media_reject">تم رفض عنصر المعرض.</string>
+
+    <string name="label_media_approved">%s وافق لك معرض البند.</string>
+    <string name="label_media_rejected">%sرفضت لك معرض البند.</string>
+
+    <string name="label_gcm_profile_photo_approve">تمت الموافقة على صورة ملفك الشخصي.</string>
+    <string name="label_gcm_profile_photo_reject">تم رفض صورة ملفك الشخصي.</string>
+
+    <string name="label_profile_photo_approved">%s تم الموافقة على صورة الملف الشخصي.</string>
+    <string name="label_profile_photo_rejected">%s تم رفض صورة الملف الشخصي.</string>
+
+    <string name="settings_view_circle_items">تقريب صور الأشخاص في القوائم</string>
+
+    <string name="msg_gallery_moderation_notice">تم إرسال العنصر إلى الإدارة. سيتم إخطارك في نهاية المراجعة.</string>
+    <string name="msg_gallery_item_added">تم إرسال العنصر إلى الإدارة. سيتم إخطارك في نهاية المراجعة.</string>
+
+    <string name="msg_gallery_item_status_rejected">تم رفضه بواسطة المشرف وغير متاح للعرض من قبل المستخدمين.</string>
+    <string name="msg_gallery_item_status_approved">وافق عليها المشرف ومتاح للعرض من قبل المستخدمين.</string>
+    <string name="msg_gallery_item_status_wait">في انتظار المراجعة. ستكون متاحة للمستخدمين بعد المراجعة. ستتلقى إشعارًا حول نهاية الإشراف.</string>
+
+    <!-- DO NOT TRANSLATE BLOCK START -->
+    <string name="settings_account_circle_items">account_circle_items</string>
+    <!-- DO NOT TRANSLATE BLOCK END-->
+
+    <!-- added for version 4.3 -->
+
+    <string name="action_back">عودة</string>
+    <string name="action_choose_photo">اختيار الصورة</string>
+    <string name="action_choose_age">العمر</string>
+    <string name="action_choose_gender">الجنس</string>
+    <string name="action_choose_sex_orientation">فترة الزواج المطلوبة</string>
+    <string name="action_grant_access">منح الوصول</string>
+    <string name="action_grant_access_success">لقد تم منح الوصول</string>
+
+    <string name="register_screen_2_msg">يرجى اختيار صورة لملف التعريف الخاص بك.</string>
+    <string name="register_screen_2_title">صورتك</string>
+    <string name="register_screen_2_subtitle">كن مبدعًا عند اختيار صورة!</string>
+
+    <string name="register_screen_3_msg">يرجى تحديد عمرك.</string>
+    <string name="register_screen_3_title">العمر</string>
+    <string name="register_screen_3_subtitle">يرجى تحديد عمرك.</string>
+
+    <string name="register_screen_4_msg">تحديد الجنس والفترة المطلوبة للزواج.</string>
+    <string name="register_screen_4_title">الجنس وفترة الزواج المطلوبة</string>
+    <string name="register_screen_4_subtitle">تحديد الجنس والفترة المطلوبة للزواج</string>
+
+    <string name="register_screen_5_title">الأفضل والقريبy</string>
+    <string name="register_screen_5_subtitle">للوصول إلى بعض الميزات ، يحتاج التطبيق إلى إذن لاستخدام موقعك.</string>
+
+    <string name="label_secret">سر</string>
+    <string name="label_sex_secret">الجنس هو سر</string>
+
+    <string name="label_register_terms">بالنقر فوق متابعة ، أنت توافق على</string>
+
+    <string name="msg_action_logout">هل ترغب بالخروج؟</string>
+
+    <string name="label_profile_photo_approved_new">%s وافق لك صورة الملف الشخصي. تمت إدارة ملف التعريف الخاص بك بنجاح! يمكنك استخدام جميع ميزات التطبيق!</string>
+    <string name="label_profile_photo_rejected_new">%s رفضت لك صورة الملف الشخصي. تحميل / تغيير صورة الملف الشخصي لتكرار المراجعة.</string>
+
+    <string name="label_only_moderated">تم التحقق منه فقط بواسطة المشرف</string>
+
+    <string name="dlg_moderation_title">الإدارة </string>
+    <string name="msg_account_not_moderated">متاح فقط للحسابات الخاضعة للإشراف بنجاح!  لم يتم الإشراف على ملفك الشخصي حتى الآن!!</string>
+
+    <!-- For version 4.4 -->
+
+    <string name="label_distance">المسافة (%d)</string>
+    <string name="label_nearby_settings_dialog_title">إعدادات بالقرب</string>
+    <string name="label_age_filters">العمر</string>
+
+    <!-- DO NOT TRANSLATE BLOCK START -->
+    <string name="settings_nearby_gender" translatable="false">account_nearby_gender</string>
+    <string name="settings_nearby_sex_orientation" translatable="false">account_nearby_sex_orientation</string>
+    <string name="settings_nearby_distance" translatable="false">account_nearby_distance</string>
+
+    <string name="settings_search_gender" translatable="false">account_search_gender</string>
+    <string name="settings_search_sex_orientation" translatable="false">account_search_sex_orientation</string>
+    <string name="settings_search_online" translatable="false">account_search_online</string>
+    <string name="settings_search_photo" translatable="false">account_search_photo</string>
+    <string name="settings_search_pro" translatable="false">account_search_pro</string>
+    <string name="settings_search_moderation" translatable="false">account_search_moderation</string>
+    <string name="settings_search_age_from" translatable="false">account_search_age_from</string>
+    <string name="settings_search_age_to" translatable="false">account_search_age_to</string>
+    <!-- DO NOT TRANSLATE BLOCK END-->
+
+    <string name="rsb_min_label">العمر من</string>
+    <string name="rsb_max_label">العمر إلى</string>
+
+    <!-- For version 4.5 -->
+
+    <string name="label_profile_photo_moderation_active">ستكون صورة الملف الشخصي متاحة للمستخدمين بعد الإشراف. الآن يرى المستخدمون صورتك السابقة ، معتمدة من المشرفين أو الصورة الافتراضية.</string>
+    <string name="label_profile_cover_moderation_active">سيكون غطاء الملف الشخصي متاحًا لجميع المستخدمين بعد التعديل. الآن يرى المستخدمون الغلاف السابق الخاص بك معتمدًا من المشرفين أو الغطاء الافتراضي.</string>
+
+    <string name="label_profile_cover_approved_new">%s تم الموافقة على صورة الخلفية.</string>
+    <string name="label_profile_cover_rejected_new">%s تم رفض صورة الخلفية. تحميل / تغيير غطاء الملف الشخصي لتكرار المراجعة.</string>
+
+    <string name="label_gcm_profile_cover_approve">تمت الموافقة على صورة الغلاف لملفك الشخصي.</string>
+    <string name="label_gcm_profile_cover_reject">تم رفض غطاء ملفك الشخصي.</string>
+
+
+    <!--Dev Maruf Addition  -->
+    <string name="placeholder_weight">الوزن كجم</string>
+    <string name="placeholder_height">الطول سم</string>
+
+    <string name="register_screen_6_title">الدولة والوزن والطول والدين</string>
+    <string name="register_screen_6_subtitle">الدولة والوزن والطول والدين</string>
+
+    <string name="action_choose_religion">الديانة</string>
+
+    <string name="label_islam">الإسلام</string>
+    <string name="label_christian">المسيحية</string>
+    <string name="label_budhdist">البوذية</string>
+    <string name="label_hindu">الهندوسية</string>
+    <string name="label_religion_other">اخرى</string>
+
+
+
+
+    </resources>
+
+

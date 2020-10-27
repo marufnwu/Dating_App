@@ -1,0 +1,215 @@
+package site.zawag.work.adapter;
+
+import android.content.Context;
+import android.content.Intent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.fragment.app.FragmentActivity;
+
+import com.android.volley.toolbox.ImageLoader;
+import com.pkmmte.view.CircularImageView;
+import site.zawag.work.ProfileActivity;
+import site.zawag.work.R;
+import site.zawag.work.app.App;
+import site.zawag.work.constants.Constants;
+import site.zawag.work.model.Gift;
+import site.zawag.work.util.GiftInterface;
+
+import java.util.List;
+
+import github.ankushsachdeva.emojicon.EmojiconTextView;
+
+public class GiftListAdapter extends BaseAdapter implements Constants {
+
+	private FragmentActivity activity;
+	private LayoutInflater inflater;
+	private List<Gift> itemsList;
+
+    private GiftInterface responder;
+
+    ImageLoader imageLoader = App.getInstance().getImageLoader();
+
+	public GiftListAdapter(FragmentActivity activity, List<Gift> itemsList, GiftInterface responder) {
+
+		this.activity = activity;
+		this.itemsList = itemsList;
+        this.responder = responder;
+	}
+
+	@Override
+	public int getCount() {
+
+		return itemsList.size();
+	}
+
+	@Override
+	public Object getItem(int location) {
+
+		return itemsList.get(location);
+	}
+
+	@Override
+	public long getItemId(int position) {
+
+		return position;
+	}
+	
+	static class ViewHolder {
+
+        public ImageView itemImg;
+        public TextView itemAuthor;
+        public TextView itemUsername;
+        public EmojiconTextView itemMessage;
+        public TextView itemTimeAgo;
+        public ImageView itemAction;
+        public CircularImageView itemAuthorPhoto;
+	        
+	}
+
+	@Override
+	public View getView(final int position, View convertView, ViewGroup parent) {
+		
+		ViewHolder viewHolder = null;
+
+		if (inflater == null) {
+
+            inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        }
+
+		if (convertView == null) {
+			
+			convertView = inflater.inflate(R.layout.gift_list_row, null);
+			
+			viewHolder = new ViewHolder();
+
+            viewHolder.itemImg = convertView.findViewById(R.id.itemImg);
+            viewHolder.itemAuthor = convertView.findViewById(R.id.itemAuthor);
+            viewHolder.itemUsername = convertView.findViewById(R.id.itemUsername);
+            viewHolder.itemMessage = convertView.findViewById(R.id.itemMessage);
+            viewHolder.itemTimeAgo = convertView.findViewById(R.id.itemTimeAgo);
+            viewHolder.itemAction = convertView.findViewById(R.id.itemAction);
+            viewHolder.itemAuthorPhoto = convertView.findViewById(R.id.itemAuthorPhoto);
+
+            convertView.setTag(viewHolder);
+
+		} else {
+			
+			viewHolder = (ViewHolder) convertView.getTag();
+		}
+
+        if (imageLoader == null) {
+
+            imageLoader = App.getInstance().getImageLoader();
+        }
+
+        viewHolder.itemImg.setTag(position);
+        viewHolder.itemAuthor.setTag(position);
+        viewHolder.itemUsername.setTag(position);
+        viewHolder.itemMessage.setTag(position);
+        viewHolder.itemTimeAgo.setTag(position);
+        viewHolder.itemAction.setTag(position);
+        viewHolder.itemAuthorPhoto.setTag(position);
+		
+		final Gift item = itemsList.get(position);
+
+
+        viewHolder.itemAuthor.setText(item.getGiftFromUserFullname());
+        viewHolder.itemUsername.setText("@" + item.getGiftFromUserUsername());
+
+        if (item.getGiftFromUserVerify() == 1) {
+
+            viewHolder.itemAuthor.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.profile_verify_icon, 0);
+
+        } else {
+
+            viewHolder.itemAuthor.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
+        }
+
+        if (item.getGiftFromUserPhotoUrl().length() != 0) {
+
+            viewHolder.itemAuthorPhoto.setVisibility(View.VISIBLE);
+
+            imageLoader.get(item.getGiftFromUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.itemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+
+        } else {
+
+            viewHolder.itemAuthorPhoto.setVisibility(View.VISIBLE);
+            viewHolder.itemAuthorPhoto.setImageResource(R.drawable.profile_default_photo);
+        }
+
+        viewHolder.itemAuthorPhoto.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                int getPosition = (Integer) v.getTag();
+
+                Gift gift = itemsList.get(getPosition);
+
+                Intent intent = new Intent(activity, ProfileActivity.class);
+                intent.putExtra("profileId", gift.getGiftFromUserId());
+                activity.startActivity(intent);
+            }
+        });
+
+        viewHolder.itemAuthor.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                int getPosition = (Integer) v.getTag();
+
+                Gift gift = itemsList.get(getPosition);
+
+                Intent intent = new Intent(activity, ProfileActivity.class);
+                intent.putExtra("profileId", gift.getGiftFromUserId());
+                activity.startActivity(intent);
+            }
+        });
+
+        if (item.getGiftToUserId() == App.getInstance().getId()) {
+
+            viewHolder.itemAction.setImageResource(R.drawable.ic_action_remove);
+
+            viewHolder.itemAction.setVisibility(View.VISIBLE);
+
+            viewHolder.itemAction.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    final int getPosition = (Integer) view.getTag();
+
+                    responder.action(getPosition);
+                }
+            });
+
+        } else {
+
+            viewHolder.itemAction.setVisibility(View.GONE);
+        }
+
+        viewHolder.itemTimeAgo.setText(item.getTimeAgo());
+        viewHolder.itemTimeAgo.setVisibility(View.VISIBLE);
+
+        if (item.getMessage().length() > 0) {
+
+            viewHolder.itemMessage.setText(item.getMessage().replaceAll("<br>", "\n"));
+
+            viewHolder.itemMessage.setVisibility(View.VISIBLE);
+
+        } else {
+
+            viewHolder.itemMessage.setVisibility(View.GONE);
+        }
+
+        imageLoader.get(item.getImgUrl(), ImageLoader.getImageListener(viewHolder.itemImg, R.drawable.img_loading, R.drawable.img_loading));
+        viewHolder.itemImg.setVisibility(View.VISIBLE);
+
+		return convertView;
+	}
+}

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "341207133380",
+    "firebase_url": "https://zawag-95018.firebaseio.com",
+    "project_id": "zawag-95018",
+    "storage_bucket": "zawag-95018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341207133380:android:9056007642762dab966d91",
+        "android_client_info": {
+          "package_name": "site.zawag.dating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341207133380-u60b4nsmts1adb42fkupba6vejqsn174.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "site.zawag.dating",
+            "certificate_hash": "81a7c8006febee5f87582f9a2eb6a9753dfbbd62"
+          }
+        },
+        {
+          "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0i14pH7d5-bPfYZgZh8NQ21_uOLabrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341207133380:android:2342ac17764760aa966d91",
+        "android_client_info": {
+          "package_name": "zawag.dating.site"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0i14pH7d5-bPfYZgZh8NQ21_uOLabrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341207133380:android:75eb7d0a93e82f57966d91",
+        "android_client_info": {
+          "package_name": "zawag.site.zawag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341207133380-cl67ftgbl5j8dcets1s6hjnph2hnvi3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zawag.site.zawag",
+            "certificate_hash": "b4d4b63ff10606133589dcd90fb0c1ee705ca8c8"
+          }
+        },
+        {
+          "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0i14pH7d5-bPfYZgZh8NQ21_uOLabrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341207133380-9ig8haqk4e8b2e5tlm1s0btgqsh9ptsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
